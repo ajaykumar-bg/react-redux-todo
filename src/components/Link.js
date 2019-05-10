@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Link = ({ active, children, onClick }) => (
-    <button
+    <button className="waves-effect waves-light btn"
        onClick={onClick}
        disabled={active}
        style={{
